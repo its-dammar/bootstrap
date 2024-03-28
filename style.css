@@ -1,0 +1,24 @@
+.text-danger-text {
+    color: red;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.carousel-item img{
+    height: calc(100vh - 56px);
+    object-fit: cover;
+}
+
+
+@media screen and (max-width:768px) {
+    .carousel-item img{
+        height: 100%;
+    }
+    .w-sm-100{
+        width: 100% !important;
+    }
+  
+    
+}
